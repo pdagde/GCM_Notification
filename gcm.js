@@ -68,9 +68,9 @@ function sendalldocs(alldocs) {
 
 function sendNotification(userdoc,alldocs,tokens) {
 
-        console.log('callinf sendNotification userdoc--------' + JSON.stringify(userdoc));
-         console.log('sendalldocs--------' + JSON.stringify(alldocs));
-    console.log('tokens--in sendnot------' + JSON.stringify(tokens));
+//        console.log('callinf sendNotification userdoc--------' + JSON.stringify(userdoc));
+  //       console.log('sendalldocs--------' + JSON.stringify(alldocs));
+  //  console.log('tokens--in sendnot------' + JSON.stringify(tokens));
         var sender = new gcm.Sender(/*insert ur token gere*/);
         if (alldocs && alldocs.message) {
             var message = new gcm.Message({
